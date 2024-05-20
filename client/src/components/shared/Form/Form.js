@@ -6,7 +6,7 @@ import { handleLogin, handleRegister } from "../../../services/authService";
 const Form = ({ formType, submitBtn, formTitle }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [role, setRole] = useState("donar");
+  const [role, setRole] = useState("donor");
   const [name, setName] = useState("");
   const [organisationName, setOrganisationName] = useState("");
   const [hospitalName, setHospitalName] = useState("");
@@ -43,12 +43,12 @@ const Form = ({ formType, submitBtn, formTitle }) => {
               className="form-check-input"
               name="role"
               id="donarRadio"
-              value={"donar"}
+              value={"donor"}
               onChange={(e) => setRole(e.target.value)}
               defaultChecked
             />
             <label htmlFor="adminRadio" className="form-check-label">
-              Donar
+              donor
             </label>
           </div>
           <div className="form-check ms-2">
@@ -120,7 +120,7 @@ const Form = ({ formType, submitBtn, formTitle }) => {
             case formType === "register": {
               return (
                 <>
-                  {(role === "admin" || role === "donar") && (
+                  {(role === "admin" || role === "donor") && (
                     <InputType
                       labelText={"Name"}
                       labelFor={"forName"}

@@ -14,31 +14,9 @@ const AdminHome = () => {
           <h3>Manage Blood Bank App </h3>
           <hr />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-            explicabo animi blanditiis incidunt dicta quia, quibusdam facere
-            corporis! Dolores, reprehenderit cum sed repellat laudantium
-            architecto natus est nostrum accusamus, odio aspernatur minima
-            fugiat quam molestiae nisi. Temporibus impedit dolorem quia.
-            Distinctio modi non excepturi illo odio voluptatum quae nostrum a
-            temporibus sequi! Explicabo, quasi consequatur ad qui quos labore
-            distinctio voluptates alias nostrum ab dicta aspernatur molestias
-            adipisci quibusdam error ipsa. Totam, tenetur dolores eaque tempora
-            officiis deserunt assumenda? Rerum nemo est nihil laudantium
-            necessitatibus. Possimus, voluptatem voluptates blanditiis quas
-            aspernatur, quam, quaerat minus maiores ipsam sint perferendis
-            dolor. Dignissimos voluptatem doloribus sint in quis omnis, atque
-            neque praesentium voluptatum suscipit. Quas esse, accusantium maxime
-            obcaecati iure officiis aperiam minus alias quod cum quos qui
-            voluptatibus, numquam, ad id dolore odit! Minima laudantium sunt,
-            explicabo nesciunt quos voluptatibus qui libero eligendi praesentium
-            debitis obcaecati similique assumenda nobis labore totam dolore
-            perferendis adipisci fugiat quibusdam tempore doloremque voluptatum
-            accusantium. Accusamus, incidunt sequi. Esse sunt officia fuga,
-            officiis saepe tempora repellat suscipit aliquid cupiditate
-            perferendis, asperiores architecto molestiae rem iste eaque
-            molestias reiciendis. Laborum modi asperiores, reprehenderit
-            assumenda numquam, vitae exercitationem illum nesciunt, dolorum
-            deleniti accusamus consequatur id. Necessitatibus dolore ad fugit?
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a quam tortor. Phasellus nec elit dolor. Integer ullamcorper sapien id tincidunt sodales. Nam luctus, lectus ac sodales aliquet, massa lectus tristique leo, vitae imperdiet nibh nisl et lorem. Proin felis erat, facilisis eu placerat ac, accumsan mattis massa. Aliquam ipsum odio, molestie sit amet ipsum sed, tristique iaculis metus. Nullam malesuada mollis porttitor. Fusce ornare efficitur hendrerit. Etiam lobortis, ante ut laoreet hendrerit, enim metus dapibus nulla, nec luctus enim libero ullamcorper sem. Mauris cursus tempus ante vel ornare. Proin eros leo, vehicula sed nulla vitae, rhoncus luctus enim. Nam sed mi tempus, posuere ipsum vitae, blandit dolor. Phasellus lacus quam, dignissim vitae magna faucibus, tristique accumsan nunc. Donec eget sem non mauris dictum tempor. Vivamus sem nulla, sodales et pulvinar sit amet, hendrerit vel est.
+
+Morbi rhoncus ligula consectetur nisi tincidunt bibendum. Vestibulum vestibulum dui quis arcu varius scelerisque. Praesent justo dolor, posuere eu libero non, elementum mollis velit. Proin eu sapien a turpis blandit auctor quis nec nisi. Ut posuere eu felis a tincidunt. Aliquam et tempus purus. Nam ac orci a odio efficitur dictum rutrum at libero. Donec laoreet mattis eros, nec pharetra sem cursus consequat. Pellentesque ante urna, tincidunt sed quam non, consectetur suscipit arcu. Aenean enim odio, bibendum vel nunc sit amet, rutrum maximus lacus. Mauris efficitur egestas mi, ac pretium lacus faucibus at. Quisque at dui a ipsum laoreet vestibulum id ac ipsum. Proin sollicitudin luctus dignissim. Morbi sed orci vulputate, pretium dolor at, sollicitudin velit. Nulla sit amet mi erat. Quisque vitae dui lorem.
           </p>
         </div>
       </div>
