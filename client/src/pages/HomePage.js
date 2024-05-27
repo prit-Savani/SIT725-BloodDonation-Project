@@ -7,12 +7,13 @@ import Modal from "../components/shared/modal/Modal";
 import API from "../services/API";
 import moment from "moment";
 
+// HomePage function
 const HomePage = () => {
   const { loading, error, user } = useSelector((state) => state.auth);
   const [data, setData] = useState([]);
   const navigate = useNavigate();
 
-  //get function
+  // Adding the function
   const getBloodRecords = async () => {
     try {
       const { data } = await API.get("/inventory/get-inventory");
