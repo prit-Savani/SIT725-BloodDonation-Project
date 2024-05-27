@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../../components/shared/Layout/Layout";
 import { useSelector } from "react-redux";
 
+// add data to the admin page
 const AdminHome = () => {
   const { user } = useSelector((state) => state.auth);
   return (
