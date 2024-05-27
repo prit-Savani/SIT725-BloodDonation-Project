@@ -30,6 +30,7 @@ const Analytics = () => {
   };
 
   //lifrecycle method
+  // add methods of lifrecycle
   useEffect(() => {
     getBloodGroupData();
   }, []);
