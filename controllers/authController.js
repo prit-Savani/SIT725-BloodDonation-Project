@@ -9,7 +9,7 @@ const registerController = async (req, res) => {
     if (exisitingUser) {
       return res.status(200).send({
         success: false,
-        message: "User ALready exists",
+        message: "A user with this information already exists in the system.",
       });
     }
     //hash password
@@ -21,14 +21,14 @@ const registerController = async (req, res) => {
     await user.save();
     return res.status(201).send({
       success: true,
-      message: "User Registerd Successfully",
+      message: "User registration process completed successfully",
       user,
     });
   } catch (error) {
     console.log(error);
     res.status(500).send({
       success: false,
-      message: "Error In Register API",
+      message: "An error occurred during the execution of the registration API.",
       error,
     });
   }
@@ -41,14 +41,14 @@ const loginController = async (req, res) => {
     if (!user) {
       return res.status(404).send({
         success: false,
-        message: "Invalid Credentials",
+        message: "Credentials provided are invalid.",
       });
     }
     //check role
     if (user.role !== req.body.role) {
       return res.status(500).send({
         success: false,
-        message: "role dosent match",
+        message: "Role mismatch detected",
       });
     }
     //compare password
@@ -59,7 +59,7 @@ const loginController = async (req, res) => {
     if (!comparePassword) {
       return res.status(500).send({
         success: false,
-        message: "Invalid Credentials",
+        message: "The credentials entered are invalid.",
       });
     }
     const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, {
@@ -67,7 +67,7 @@ const loginController = async (req, res) => {
     });
     return res.status(200).send({
       success: true,
-      message: "Login Successfully",
+      message: "Login successful",
       token,
       user,
     });
