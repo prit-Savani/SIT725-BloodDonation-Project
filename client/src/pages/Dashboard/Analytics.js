@@ -7,6 +7,7 @@ const Analytics = () => {
   const [data, setData] = useState([]);
   const [inventoryData, setInventoryData] = useState([]);
   const colors = [
+    //Color array indexing
     "#884A39",
     "#C38154",
     "#FFC26F",
